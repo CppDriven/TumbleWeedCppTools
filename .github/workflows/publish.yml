@@ -25,5 +25,5 @@ jobs:
       with:
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/TumbleWeedCppTools:latest
+        tags: ghcr.io/${{ github.repository_owner }}/tumbleweedcpptools:latest
 
