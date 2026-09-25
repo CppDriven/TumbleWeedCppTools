@@ -24,7 +24,7 @@ RUN \
     && rm -rf ninja
 
 RUN \
-    git clone --branch 2.21.1 --depth=1 https://github.com/danmar/cppcheck.git \
+    git clone --branch 2.22.0 --depth=1 https://github.com/danmar/cppcheck.git \
     && cd cppcheck \
     && cmake -DCMAKE_BUILD_TYPE=RELEASE -DUSE_MATCHCOMPILER=On -B build \
     && cmake --build build --parallel $(nproc) \
